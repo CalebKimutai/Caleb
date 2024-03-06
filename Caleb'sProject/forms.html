@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <title>Learning Forms</title>
+    <style>
+        form
+        {
+            background-color: beige;
+            width: 28%;
+            padding: 23%;
+            margin: 90px auto auto;
+        }
+        .ext
+        {
+            width: 195%;
+        }
+        h1
+        {
+            background-color: khaki;
+            color: beige;
+            width: 85%;
+        }
+        input
+        {
+            padding: 5px;
+        }
+        select
+        {
+            padding: 5px;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body style="background-image: linear-gradient(to left,beige,darkgoldenrod)">
+<form>
+    <h1>REGISTRATION FORM</h1>
+    <table>
+        <!--First row-->
+        <tr>
+            <td><label>First Name:</label><br><label>
+                <input type="text" name="fname">
+            </label></td>
+            <td><label>Last Name:</label><br><label>
+                <input type="text" name="sname">
+            </label></td>
+        </tr>
+        <!--second row-->
+        <tr>
+            <td><label>Email:</label><br><label>
+                <input type="email" name="email" class="ext">
+            </label></td>
+        </tr>
+        <!--Third row-->
+        <tr>
+            <td><label>City</label><br><label>
+                <input type="text" name="city" class="ext">
+            </label></td>
+        </tr>
+        <!--Fourth row-->
+        <tr>
+            <td>
+                <label>Country</label>
+                <label>
+                    <select name="country" class="ext">
+                        <option class="ext">Kenya</option>
+                        <option class="ext">Egypt</option>
+                        <option class="ext">Uganda</option>
+                    </select>
+                </label>
+            </td>
+        </tr>
+        <!--row5-->
+        <tr><td><input type="submit" name="save" value="Log In" class="ext"> </td></tr>
+    </table>
+</form>
+
+</body>
+</html>
